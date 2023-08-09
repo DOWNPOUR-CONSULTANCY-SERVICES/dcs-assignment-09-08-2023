@@ -13,7 +13,7 @@ const Login = () => {
                     <p className='text-[26px] mt-5'>Login</p>
                     <p className='text-[20px] mt-5 text-[#747474]'>Login with your phone number using an otp</p>
                 </div>
-                <div className=' max-w-screen-sm mx-auto'>
+                <div className=' max-w-[400px] mx-auto'>
 
                     <form className='mx-8 lg:mx-0 tracking-[1.7px] mt-12 mb-2'>
 
@@ -22,7 +22,7 @@ const Login = () => {
                             <input
                                 type="number"
                                 inputMode="numeric"
-                                className='outline-none h-[43px] px-3 bg-[#E9E9E9] w-full rounded-[9px] mt-1 lg:text-black lg:text-[15px] lg:h-[50px] placeholder-black' // Added 'placeholder-black' class
+                                className='outline-none h-[43px] px-3 bg-[#E9E9E9] w-full rounded-[9px] mt-1 lg:text-black lg:text-[15px] lg:h-[50px] placeholder-black'
                                 placeholder='+91 86531 38715'
 
                                 style={{ '-moz-appearance': 'textfield' }}
@@ -36,7 +36,7 @@ const Login = () => {
                             </button>
                         </div>
                         <div >
-                            <p className='text-[#858585] text-[15px] font-normal lg:text-center mt-2 lg:text-[14px] lg:text-black'>Don’t have an Account?  <Link href='/signup' className='text-[#303030] lg:text-black font-bold'>Register</Link></p>
+                            <p className='text-[#858585] text-[15px] font-normal lg:text-center mt-2 lg:text-[14px] lg:text-black'>Don’t have an Account?  <Link href='/register' className='text-[#303030] lg:text-black font-bold'>Register</Link></p>
                         </div>
                         <div className='lg:max-w-screen-sm mx-auto lg:mx-20'>
                             <div className='flex justify-center items-center gap-2 mt-2'>
