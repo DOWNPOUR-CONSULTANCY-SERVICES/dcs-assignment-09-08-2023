@@ -49,11 +49,11 @@ const Login = () => {
                     <div>
                         <p className='text-center text-[#222222] text-[15px] font-normal lg:text-[14px] mb-1'>Continue With</p>
                         <div className='flex justify-center items-center gap-3  mb-16'>
-                            <button className='w-[43px] h-[43px] lg:w-[50px] lg:h-[50px] rounded-[12px] bg-[#1B1919] flex justify-center items-center p-4'>
+                            <button className='w-[43px] h-[43px] lg:w-[45px] lg:h-[45px] rounded-[12px] bg-[#1B1919] flex justify-center items-center p-2'>
                                 <Image src={google} alt='google' />
                             </button>
-                            <button className='w-[43px] h-[43px] lg:w-[50px] lg:h-[50px] rounded-[12px] bg-[#1B1919] flex justify-center items-center p-4'>
-                                <Image src={facebook} alt='facebook' />
+                            <button className='w-[43px] h-[43px] lg:w-[45px] lg:h-[45px] rounded-[12px] bg-[#1B1919] flex justify-center items-center p-2'>
+                                <Image src={facebook} alt='facebook' className='w-[20px] h-[30px]' />
                             </button>
                         </div>
                     </div>
