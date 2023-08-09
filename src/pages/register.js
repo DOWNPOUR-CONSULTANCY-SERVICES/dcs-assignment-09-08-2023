@@ -3,11 +3,12 @@ import google from '../assets/icons/Component 2.png'
 import facebook from '../assets/icons/Component 3.png'
 import Image from 'next/image';
 import Link from 'next/link';
+import { poppins } from '@/font';
 
 const register = () => {
     return (
-        <div className='pt-12'>
-            <div className='flex justify-center items-center'>
+        <div className={poppins.className}>
+            <div className='flex justify-center items-center pt-12'>
                 <div className='font-normal text-center '>
                     <p className='text-[26px] '>Downpour Consultancy Services Assignment</p>
                     <p className='text-[26px] mt-5'>Register Yourself</p>
@@ -36,7 +37,7 @@ const register = () => {
                         </button>
                     </div>
                     <div >
-                        <p className='text-[#858585] text-[15px] font-normal lg:text-center mt-2 lg:text-[14px] lg:text-black'>Already have an account? <Link href='/' className='text-[#303030] lg:text-black font-bold'>Login</Link></p>
+                        <p className='text-[#858585] text-[15px] font-normal lg:text-center mt-2 lg:text-[14px] lg:text-black'>Already have an account? <Link href='/login' className='text-[#303030] lg:text-black font-bold'>Login</Link></p>
                     </div>
                     <div className='lg:max-w-screen-sm mx-auto lg:mx-20'>
                         <div className='flex justify-center items-center gap-2 mt-2'>
