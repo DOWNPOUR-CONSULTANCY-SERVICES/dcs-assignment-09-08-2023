@@ -18,7 +18,7 @@ export default function Home() {
         <div className="flex justify-center items-center">
           <div>
             <Image src={img} alt='img' />
-            <div className="mt-[-220px] ms-[250px] bg-gray-100 border-2 border-[#B6A9A9] rounded-full z-40 w-[30px] h-[30px] flex justify-center items-center">
+            <div className="mt-[-220px] ms-[260px] bg-gray-100 border-2 border-[#B6A9A9] rounded-full z-40 w-[30px] h-[30px] flex justify-center items-center">
               <MdOutlineModeEditOutline size={20} />
             </div>
           </div>
